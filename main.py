@@ -61,7 +61,7 @@ html_content = '''
     </style>
 </head>
 <body>
-    <h1>Countries Information</h1>
+    <h1>Информация о странах</h1>
     <table>
         <tr>
             <th>Страна</th>
