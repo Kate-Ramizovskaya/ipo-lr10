@@ -1,6 +1,7 @@
 import requests
 import json
 from bs4 import BeautifulSoup as bs
+
 url = "https://www.scrapethissite.com/pages/simple/"
 response = requests.get(url)
 soup = bs(response.text, "html.parser")
