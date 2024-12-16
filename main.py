@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup as bs
 from bs4.element import Tag
 
 # Шаг 1: Скрапинг данных
+
 url = "https://www.scrapethissite.com/pages/simple/"
 response = requests.get(url)
 soup = bs(response.text, "html.parser")
